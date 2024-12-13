@@ -1,0 +1,41 @@
+.configuration-form {
+  margin-bottom: 20px;
+  padding: 20px; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.configuration-form label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+.configuration-form input {
+  width: 100%;
+  padding: 6px; 
+  margin-bottom: 10px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.configuration-form button {
+  background-color: #F88379;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 9px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 16px;
+}
+.configuration-form button:hover {
+  background-color: #2c2c2c;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
